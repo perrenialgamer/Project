@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Ninja Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="gameContainer">
+        <div id="gameArea">
+            <div id="scoreDisplay">Score: 0</div>
+            <div id="livesContainer">
+                <img class="life" src="cross.png">
+                <img class="life" src="cross.png">
+                <img class="life" src="cross.png">
+                <img class="life" src="cross.png">
+                <img class="life" src="cross.png">
+            </div>
+            <div id="gameOver">Game Over</div>
+            <img id="retryButton" src="retry.png" alt="Retry" class="hidden">
+            <div id="highScoreDisplay">High Score: 0</div>
+            <button id="backButton" class="fancyButton hidden">Back to Main Menu</button>
+        </div>
+    </div>
+    <script type="module" src="highscore.js"></script>
+    <script type="module" src="game.js"></script>
+
+ 
+</body>
+
+</html>
